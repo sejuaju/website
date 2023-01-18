@@ -1,0 +1,579 @@
+.page-wrapper {
+  margin-top: 30px;
+}
+
+.logo-width {
+  transform: scale(1.3);
+}
+
+.checkout-form-centre {
+  float: inherit;
+  padding: 50px 0px 50px 0px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.checkout-form-centre .checkout-login-step {
+  max-width: 100%;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  background: #030351;
+  border-radius: 10px;
+  float: left;
+}
+
+.checkout-form-centre .checkout-login-step .setting-icon {
+  float: right;
+}
+
+.checkout-form-centre .checkout-login-step .setting-icon i {
+  transform: rotate(90deg);
+  width: 30px;
+  height: 30px;
+  background: #2a85fc;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  border-radius: 50px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #ffffff !important;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff !important;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffffff !important;
+}
+
+.checkout-form-centre .checkout-login-step .lock-title {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .btn-section {
+  width: 100%;
+  float: left;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .btn-section .days {
+  background: #0803a0;
+  color: #ffffff;
+  padding: 7px 17px;
+  outline: none;
+  box-shadow: none;
+  border: 0px;
+  border-radius: 30px;
+  margin-right: 10px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .btn-section .active {
+  background: #2a85fc;
+}
+
+.checkout-form-centre .checkout-login-step .apy {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  color: #10cc26;
+  margin-bottom: 20px;
+  float: left;
+}
+
+.checkout-form-centre .checkout-login-step .lock-btn {
+  background: #2a85fc;
+  width: 100%;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 14px 20px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* .checkout-form-centre .checkout-login-step .lock-btn:hover{background: transparent;border: 2px solid #2a85fc;color: #ffffff;} */
+.checkout-form-centre .checkout-login-step .lock-box {
+  position: relative;
+  float: left;
+  width: 100%;
+  background: #03138b;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .left {
+  float: left;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .left .from {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #0fc427;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .left .token-name {
+  display: flex;
+  cursor: pointer;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .left .token-name img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .left .token-name .name {
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .left .token-name i {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .right {
+  float: right;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .right .to {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: right;
+  color: #0fbf3e;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .right .token-box {
+  display: flex;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .right .token-box .form-control {
+  width: 280px;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 17px;
+  text-align: left;
+  border: none;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .right .token-box input {
+  height: 30px !important;
+  box-shadow: none;
+}
+
+.checkout-form-centre .checkout-login-step .lock-box .right .token-box .max {
+  border: 4px solid #0ae344;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  color: #15e11c;
+  font-size: 14px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 50px;
+  line-height: 16px;
+  font-weight: 600;
+}
+
+.checkout-form-centre .checkout-login-step .swap-icon {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .swap-icon i {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 41px;
+  text-align: center;
+  border-radius: 50px;
+  background: #2a85fc;
+}
+
+.checkout-form-centre .checkout-login-step .swap-icon button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.table-section {
+  width: 100%;
+  position: relative;
+  float: left;
+  padding: 20px 0px 20px 0px;
+}
+
+.table-section .tbl {
+  background: #0608b2;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.tabs-wrapper {
+  max-width: 566px;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.nav-tabs {
+  display: flex;
+  border-bottom: none;
+}
+
+.nav-tabs li {
+  border: none;
+  background: #060ea5;
+  color: #7b868e;
+}
+
+.tab {
+  padding: 0.5rem 3.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-right: 1.5rem;
+  transition: all 0.3s ease 0s;
+  font-size: 17px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.tab.is-active {
+  background: #1faeee;
+  color: #fff;
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.is-active {
+  display: block;
+}
+
+.heading-title {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+}
+
+.checkout-form-centre .checkout-login-step .swap-details {
+  width: 100%;
+  position: relative;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .swap-details .swap-left {
+  width: 100%;
+  border-bottom: 1px solid #0d069c;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.checkout-form-centre .checkout-login-step .swap-details .swap-left h6 {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: left;
+  float: left;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.checkout-form-centre .checkout-login-step .swap-details .swap-left p {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: right;
+  float: right;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.checkout-form-centre .checkout-login-step .swap-details .swap-left p i {
+  font-size: 18px;
+  font-weight: normal;
+  color: #1faeee;
+  margin-left: 10px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex {
+  display: flex;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .dropdown {
+  margin-left: 0px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .drp {
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  outline: none;
+  box-shadow: none;
+  width: 131px;
+  text-align: left;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .dropdown-menu {
+  background: #0626b5;
+  border-radius: 10px !important;
+  left: -15px !important;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .dropdown-menu .dropdown-item:hover {
+  background: transparent;
+  color: #ffffff;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .dropdown-menu .dropdown-item {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300 !important;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .dropdown-menu .dropdown-item img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .dropdown .dropdown-toggle::after {
+  margin-left: 12px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .flex .drp img {
+  width: 28px;
+  height: 28px;
+  margin-left: 10px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-left {
+  background: #1806a8;
+  padding: 15px;
+  border-radius: 20px;
+  margin-right: 15px;
+  width: 30%;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-left p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-right {
+  background: #190bb3;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-right .form-control {
+  border-radius: 0px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 17px;
+  border: none;
+  text-align: left;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-right input {
+  height: 30px !important;
+  box-shadow: none;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-right .max {
+  border: 1px solid #d3b57a;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  color: #d3b57a;
+  font-size: 14px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 50px;
+  line-height: 16px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-right img {
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain .cross-chain-right .token {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.checkout-form-centre .checkout-login-step .cross-chain p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: capitalize;
+  color: #7b868e;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.development {
+  float: inherit;
+  padding: 50px 0px 0px 0px;
+  max-width: 415px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.development .development-step {
+  max-width: 100%;
+  margin-bottom: 40px;
+  padding: 30px 30px;
+  background: #080249;
+  border-radius: 20px;
+  float: left;
+}
+
+.development .development-step img {
+  width: 100%;
+}
+
+.lock-btn1 {
+  background: #110ec8;
+  width: 400px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 14px 20px;
+  outline: none !important;
+  box-shadow: none;
+  border: none !important;
+  margin-bottom: 50px;
+}
+
+.development-title {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #7b868e;
+  line-height: 25px;
+}
+
+.checkout-form-centre .checkout-login-step .package-table {
+  width: 100%;
+  position: relative;
+  float: left;
+}
+
+.checkout-form-centre .checkout-login-step .package-table th {
+  border-top: 0px;
+  text-align: left;
+  color: #7b868e;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7b868e;
+
+}
+
+.checkout-form-centre .checkout-login-step .package-table td {
+
+  text-align: left;
+  color: #ffffff;
+  padding: 10px 0px 10px 0px;
+
+}
+
+.checkout-form-centre .checkout-login-step .package-table table td .btn-add {
+  background: #fed88d;
+  padding: 7px 20px;
+  border-radius: 22px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  color: #170bb4;
+}
+
+.table-btn {
+  background: #fed88d;
+  color: #1c0bb3;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 30px;
+  outline: none !important;
+  box-shadow: none;
+  width: 120px;
+  padding: 10px;
+  border: none;
+  margin-right: 6px;
+}
+

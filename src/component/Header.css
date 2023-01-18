@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+ }
+ 
+ .nav {
+    /* background: #000; */
+    position: fixed;
+    right: 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 35%;
+    padding: 0 10px;
+ }

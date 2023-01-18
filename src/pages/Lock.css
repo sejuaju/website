@@ -1,0 +1,8 @@
+.lock-card-container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: brown; */
+  padding: 0px 2%;
+}
